@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9637de6d-bb30-4f38-bd11-90110f8ff203" name="Default Changelist" comment="" />
+    <list default="true" id="9637de6d-bb30-4f38-bd11-90110f8ff203" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/day01/ex09/ssap2.php" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex09/ssap2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01/ex11/do_op_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/day01/ex11/do_op_2.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day01/ex10/do_op.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-end-line="36" selection-end-column="2" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/ex09/ssap2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -25,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day01/ex11/do_op_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -46,8 +58,11 @@
         <option value="$PROJECT_DIR$/day01/ex01/mlx.php" />
         <option value="$PROJECT_DIR$/day01/ex07/rostring.php" />
         <option value="$PROJECT_DIR$/day01/ex08/ft_is_sort.php" />
-        <option value="$PROJECT_DIR$/day01/ex09/ssap2.php" />
         <option value="$PROJECT_DIR$/day01/ex10/do_op.php" />
+        <option value="$PROJECT_DIR$/day01/ex12/search_it!.php" />
+        <option value="$PROJECT_DIR$/day01/ex03/main.php" />
+        <option value="$PROJECT_DIR$/day01/ex08/main.php" />
+        <option value="$PROJECT_DIR$/day01/ex09/ssap2.php" />
         <option value="$PROJECT_DIR$/day01/ex11/do_op_2.php" />
       </list>
     </option>
@@ -75,72 +90,6 @@
               <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
               <item name="day01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Piscine-PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="ex10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Piscine-PHP" type="b2602c69:ProjectViewProjectNode" />
@@ -183,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570029082867</updated>
-      <workItem from="1570029087887" duration="9892000" />
+      <workItem from="1570029087887" duration="10725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9892000" />
+    <option name="totallyTimeSpent" value="10725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
@@ -261,10 +210,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day01/ex07/rostring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/ex03/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/ex08/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day01/ex01/mlx.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/ex12/search_it!.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -275,31 +252,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01/ex07/rostring.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day01/ex10/do_op.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-end-line="36" selection-end-column="2" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day01/ex09/ssap2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day01/ex11/do_op_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>

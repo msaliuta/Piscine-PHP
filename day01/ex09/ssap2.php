@@ -3,7 +3,7 @@
 function cmp($a, $b)
 {
     $i = 0;
-    $line = "abcdefghijklmnopqrstuvwxyz0123456789!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+    $line = "abcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
     while (($i < strlen($a)) || ($i < strlen($b)))
     {
         $a_index = stripos($line, $a[$i]);
