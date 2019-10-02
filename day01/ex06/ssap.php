@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 function ft_split($string) {
     $string = trim($string);
@@ -12,5 +13,14 @@ function ft_split($string) {
     }
     sort($arr);
     return ($arr);
+}
+
+$str = array();
+for ($i = 1; $i < $argc; $i++) {
+    $str = array_merge($str, ft_split($argv[$i]));
+}
+sort($str);
+foreach ($str as $value) {
+    print("$value\n");
 }
 ?>
