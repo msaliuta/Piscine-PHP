@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<input type="number" id="nb1">
+	<select id="select">
+		<option>+</option>
+		<option>-</option>
+		<option>*</option>
+		<option>/</option>
+		<option>%</option>
+	</select>
+	<input type="number" id="nb2">
+	<button type="submit" onclick="main()">Try me!</button>
+
+
+<script>
+	function func() {
+ 	 alert( 'Please, use me...' );
+	}
+
+	setInterval("alert('Please, use me...')", 30000)
+
+	function main() {
+		var index = document.getElementById("select").selectedIndex;
+		var value = document.getElementById("select").options;
+		var select = value[index].text;
+		var res;
+
+		var nb1 = document.getElementById("nb1").value;
+		var nb2 = document.getElementById("nb2").value;
+
+		if (!nb1 || !nb2)
+		{
+			alert("Error :(");
+			console.log("Error :(");
+		}
+		else
+		{
+			nb1 = parseInt(nb1);
+			nb2 = parseInt(nb2);
+
+			if (nb1 < 0 || nb2 < 0)
+			{
+				alert("Error :(");
+				console.log("Error :(");
+			}
+			else {
+				if (select === "+") {
+					res = nb1 + nb2;
+				}
+				if (select === "-")
+					res = nb1 - nb2;
+				if (select === "*")
+					res = nb1 * nb2;
+				if (select === "/")
+				{
+					if (nb2 === 0)
+					  res = "It's over 9000 !";
+					else
+						res = nb1 / nb2;
+				}
+				if (select === "%")
+				{
+					if (nb2 === 0)
+						res = "It's over 9000 !";
+					else
+						res = nb1 % nb2;
+				}
+			}
+		}
+		alert(res);
+		console.log(res);
+	}
+</script>
+</body>
+</html>
