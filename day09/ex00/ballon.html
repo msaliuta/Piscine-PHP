@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="<en>">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		#balloon {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			border: 1px;
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+<div id="balloon">
+
+</div>
+<script>
+	var	arr = ['red', 'green', 'blue'];
+	var	i = 0;
+
+	var circle = document.getElementById('balloon');
+	circle.onclick = main;
+
+	function main() {
+		size();
+		color();
+	}
+
+	circle.onmouseleave = reverse;
+
+	function size() {
+		var	width = parseInt(circle.clientWidth, 10);
+		var height = parseInt(circle.clientHeight, 10);
+		width += 10;
+		height += 10;
+		if (width > 420)
+		{
+			width = 200;
+			height = 200;
+		}
+		circle.style.width = width + 'px';
+		circle.style.height = height + 'px';
+		circle.style.borderRadius = 100 + '%';
+	}
+
+	function color() {
+		i++;
+		if (i > 2)
+			i = 0;
+		circle.style.backgroundColor = arr[i];
+	}
+
+	function reverse() {
+		var width = parseInt(circle.clientWidth, 10);
+		var height = parseInt(circle.clientHeight, 10);
+		if (width > 200) {
+			width -= 5;
+			height -= 5;
+		}
+			circle.style.width = width + 'px';
+			circle.style.height = height + 'px';
+			i--;
+			if (i < 0)
+				i = 2;
+			circle.style.backgroundColor = arr[i];
+	}
+
+</script>
+</body>
+</html>
